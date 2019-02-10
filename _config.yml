@@ -1,11 +1,11 @@
 
 
 # Site settings
-title:
+title: Contractual Ovulation
 email:
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://contractualovulation.com" # the base hostname & protocol for your site
 
 twitter_username:
 github_username:

@@ -9,6 +9,9 @@ hr.light { border-color: white; }
 a { -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; color: #e51c4a; }
 a:hover, a:focus { color: #b9153b; }
 
+a.light-link { -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; color: #fff; }
+a.light-link:hover, a.light-link:focus { color: #e6e6e6; }
+
 h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 p { font-size: 16px; line-height: 1.5; margin-bottom: 20px; }

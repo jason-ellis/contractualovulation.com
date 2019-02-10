@@ -27,6 +27,15 @@ a {
     }
 }
 
+a.light-link {
+    @include transition-all;
+    color: $theme-light;
+    &:hover,
+    &:focus {
+        color: darken($theme-light, 10%);
+    }
+}
+
 h1,
 h2,
 h3,
@@ -348,4 +357,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-

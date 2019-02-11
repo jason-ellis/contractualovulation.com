@@ -78,6 +78,12 @@ aside {
 
 // Navigation
 
+.navbar {
+    @media (min-width: 768px) {
+        border: none;
+    }
+}
+
 .navbar-default {
     background-color: white;
     border-color: rgba($theme-dark, .5);

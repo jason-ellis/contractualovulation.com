@@ -1,7 +1,15 @@
 <header>
     <div class="header-content">
         <div class="header-content-inner">
-            <img class="img-responsive" src="/assets/img/co-logo-8bit.png">
+            <picture class="img-responsive">
+                <source srcset="/assets/img/co-logo-8bit-mobile.webp" media="(max-width: 768px)" type="image/webp">
+                <source srcset="/assets/img/co-logo-8bit-mobile.png" media="(max-width: 768px)" type="image/png">
+
+                <source srcset="/assets/img/co-logo-8bit.webp" type="image/webp">
+                <source srcset="/assets/img/co-logo-8bit.png" type="image/png">
+                
+                <img class="img-responsive" src="/assets/img/co-logo-8bit.png">
+            </picture>
         </div>
     </div>
 </header>

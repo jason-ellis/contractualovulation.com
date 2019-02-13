@@ -364,3 +364,27 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
+
+/* Footer styles
+-------------------------------------------------- */
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 100px;
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+    background-color: $theme-primary;
+
+    .container {
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}
